@@ -1,0 +1,23 @@
+package helper;
+
+import java.io.StringReader;
+import java.io.StringWriter;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+
+public class XMLConvert<T> {
+	private T type;
+
+	public XMLConvert(T type) {
+		this.type = type;
+	}
+	
+	@SuppressWarnings("all")
+	public T xml2Object(String xml) throws Exception{
+		T sv= null;
+		JAXBContext ctx = JAXBContext.newInstance(type.getClass());
+		Unmaarshaller ms = ctx.createn
+	}
+
+}

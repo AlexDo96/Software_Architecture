@@ -1,0 +1,79 @@
+STATUS | wrapper  | 2022/08/29 21:51:51 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/08/29 21:51:51 | Launching a JVM...
+INFO   | jvm 1    | 2022/08/29 21:51:54 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/08/29 21:51:54 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/08/29 21:51:54 | 
+INFO   | jvm 1    | 2022/08/29 21:51:54 | Java Runtime: Oracle Corporation 11.0.13 C:\Program Files\Java\jdk-11.0.13
+INFO   | jvm 1    | 2022/08/29 21:51:54 |   Heap sizes: current=1048576k  free=1036288k  max=1048576k
+INFO   | jvm 1    | 2022/08/29 21:51:54 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=2q2LV03n2SwHAShc -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=22580 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/08/29 21:51:54 | Extensions classpath:
+INFO   | jvm 1    | 2022/08/29 21:51:54 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/08/29 21:51:54 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/08/29 21:51:54 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/08/29 21:51:54 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/08/29 21:51:54 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/08/29 21:51:59 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/08/29 21:52:01 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | PListStore:[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-52255-1661784722645-0:1) is starting
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Listening for connections at: tcp://RAKUS089:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Listening for connections at: amqp://RAKUS089:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Listening for connections at: stomp://RAKUS089:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Listening for connections at: mqtt://RAKUS089:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/08/29 21:52:02 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/08/29 21:52:03 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/08/29 21:52:03 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@27681a93{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/08/29 21:52:03 |  INFO | Listening for connections at ws://RAKUS089:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/08/29 21:52:03 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/08/29 21:52:03 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-52255-1661784722645-0:1) started
+INFO   | jvm 1    | 2022/08/29 21:52:03 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/08/29 21:52:03 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 70026 mb of usable space. - resetting to maximum available disk space: 70026 mb
+INFO   | jvm 1    | 2022/08/29 21:52:05 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/08/29 21:52:05 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2022/09/02 20:37:09 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/09/02 20:37:10 | Launching a JVM...
+INFO   | jvm 1    | 2022/09/02 20:37:11 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/09/02 20:37:11 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/09/02 20:37:11 | 
+INFO   | jvm 1    | 2022/09/02 20:37:11 | Java Runtime: Oracle Corporation 11.0.13 C:\Program Files\Java\jdk-11.0.13
+INFO   | jvm 1    | 2022/09/02 20:37:11 |   Heap sizes: current=1048576k  free=1036288k  max=1048576k
+INFO   | jvm 1    | 2022/09/02 20:37:11 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=Jk3xLwidQabDAYun -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=13104 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/09/02 20:37:11 | Extensions classpath:
+INFO   | jvm 1    | 2022/09/02 20:37:11 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/09/02 20:37:11 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/09/02 20:37:11 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/09/02 20:37:11 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/09/02 20:37:11 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/09/02 20:37:12 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/09/02 20:37:13 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | PListStore:[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-60008-1662125834169-0:1) is starting
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Listening for connections at: tcp://RAKUS089:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Listening for connections at: amqp://RAKUS089:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Listening for connections at: stomp://RAKUS089:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Listening for connections at: mqtt://RAKUS089:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@45e7d04d{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Listening for connections at ws://RAKUS089:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-60008-1662125834169-0:1) started
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/09/02 20:37:14 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 67905 mb of usable space. - resetting to maximum available disk space: 67905 mb
+INFO   | jvm 1    | 2022/09/02 20:37:15 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/09/02 20:37:15 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2022/09/02 20:37:58 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:60097 failed: Frame size of 1 GB larger than max allowed 100 MB
+INFO   | jvm 1    | 2022/09/02 20:37:59 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:60098 failed: Frame size of 1 GB larger than max allowed 100 MB
+INFO   | jvm 1    | 2022/09/02 20:38:04 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:60099 failed: Frame size of 1 GB larger than max allowed 100 MB
+INFO   | jvm 1    | 2022/09/02 20:38:34 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:60100 failed: Channel was inactive (no connection attempt made) for too (>30000) long: tcp://0:0:0:0:0:0:0:1:60100

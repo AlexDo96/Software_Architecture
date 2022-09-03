@@ -1,0 +1,16 @@
+package helper;
+
+public class XMLConvert<T> {
+	private T type;
+
+	public XMLConvert(T type) {
+		this.type = type;
+	}
+	
+	@SuppressWarnings("all")
+	public T xml2Object(String xml) throws Exception{
+		T sv= null;
+		JAXBContext ctx = JAXBContext.newInstance(type.getClass())
+	}
+
+}
