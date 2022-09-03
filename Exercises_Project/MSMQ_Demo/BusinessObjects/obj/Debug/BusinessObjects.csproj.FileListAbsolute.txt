@@ -1,0 +1,5 @@
+C:\Tuan Anh\ToThuy\Kien truc PM\2022\Exercises_Project\MSMQ_Demo\BusinessObjects\bin\Debug\BusinessObjects.dll
+C:\Tuan Anh\ToThuy\Kien truc PM\2022\Exercises_Project\MSMQ_Demo\BusinessObjects\bin\Debug\BusinessObjects.pdb
+C:\Tuan Anh\ToThuy\Kien truc PM\2022\Exercises_Project\MSMQ_Demo\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Tuan Anh\ToThuy\Kien truc PM\2022\Exercises_Project\MSMQ_Demo\BusinessObjects\obj\Debug\BusinessObjects.dll
+C:\Tuan Anh\ToThuy\Kien truc PM\2022\Exercises_Project\MSMQ_Demo\BusinessObjects\obj\Debug\BusinessObjects.pdb
