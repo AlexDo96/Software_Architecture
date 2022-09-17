@@ -3,4 +3,5 @@
     <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="javax.jms.ConnectionFactory"/>
+    <fullyQualifiedTypeName name="javax.jms.TextMessage"/>
 </qualifiedTypeNameHistroy>

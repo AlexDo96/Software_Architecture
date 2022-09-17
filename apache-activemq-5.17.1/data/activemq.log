@@ -47,3 +47,145 @@
 2022-09-02 20:37:59,167 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:60098 failed: Frame size of 1 GB larger than max allowed 100 MB | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:60098@61616
 2022-09-02 20:38:04,201 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:60099 failed: Frame size of 1 GB larger than max allowed 100 MB | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:60099@61616
 2022-09-02 20:38:34,228 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:60100 failed: Channel was inactive (no connection attempt made) for too (>30000) long: tcp://0:0:0:0:0:0:0:1:60100 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker 0
+2022-09-04 18:49:01,622 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-04 18:49:01,906 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-09-04 18:49:01,928 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2022-09-04 18:49:01,928 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-09-04 18:49:02,685 | INFO  | PListStore:[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2022-09-04 18:49:03,437 | INFO  | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-56425-1662292142990-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-04 18:49:03,943 | INFO  | Listening for connections at: tcp://RAKUS089:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-04 18:49:03,949 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-04 18:49:04,017 | INFO  | Listening for connections at: amqp://RAKUS089:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-04 18:49:04,018 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-04 18:49:04,042 | INFO  | Listening for connections at: stomp://RAKUS089:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-04 18:49:04,044 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-04 18:49:04,069 | INFO  | Listening for connections at: mqtt://RAKUS089:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-04 18:49:04,070 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-04 18:49:04,106 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-09-04 18:49:04,509 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-09-04 18:49:04,872 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@45e7d04d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2022-09-04 18:49:05,126 | INFO  | Listening for connections at ws://RAKUS089:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2022-09-04 18:49:05,128 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-04 18:49:05,128 | INFO  | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-56425-1662292142990-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-04 18:49:05,128 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-04 18:49:05,165 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 68341 mb of usable space. - resetting to maximum available disk space: 68341 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-04 18:49:07,980 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-09-04 18:49:07,981 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-09-04 19:12:39,574 | WARN  | /admin/createDestination.action | org.eclipse.jetty.server.HttpChannel | qtp616452706-48
+javax.servlet.ServletException: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalArgumentException: No JMSDestination parameter specified
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalArgumentException: No JMSDestination parameter specified
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 17 more
+Caused by: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalArgumentException: No JMSDestination parameter specified
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1631)
+	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: No JMSDestination parameter specified
+	at org.apache.activemq.web.DestinationFacade.getValidDestination(DestinationFacade.java:112)
+	at org.apache.activemq.web.DestinationFacade.addDestination(DestinationFacade.java:56)
+	at org.apache.activemq.web.controller.CreateDestination.handleRequest(CreateDestination.java:38)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 51 more
+2022-09-05 20:49:32,574 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-05 20:49:32,684 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-09-05 20:49:32,691 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2022-09-05 20:49:32,692 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-09-05 20:49:32,997 | INFO  | PListStore:[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2022-09-05 20:49:33,219 | INFO  | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-59641-1662385773022-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-05 20:49:33,266 | INFO  | Listening for connections at: tcp://RAKUS089:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-05 20:49:33,267 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-05 20:49:33,273 | INFO  | Listening for connections at: amqp://RAKUS089:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-05 20:49:33,274 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-05 20:49:33,282 | INFO  | Listening for connections at: stomp://RAKUS089:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-05 20:49:33,283 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-05 20:49:33,287 | INFO  | Listening for connections at: mqtt://RAKUS089:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-05 20:49:33,288 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-05 20:49:33,292 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-09-05 20:49:33,384 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-09-05 20:49:33,485 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@d88149c{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2022-09-05 20:49:33,605 | INFO  | Listening for connections at ws://RAKUS089:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2022-09-05 20:49:33,605 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-05 20:49:33,605 | INFO  | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-59641-1662385773022-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-05 20:49:33,605 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-05 20:49:33,621 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 68759 mb of usable space. - resetting to maximum available disk space: 68759 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-05 20:49:34,640 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-09-05 20:49:34,640 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-09-08 20:38:42,471 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-08 20:38:42,745 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-09-08 20:38:42,779 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2022-09-08 20:38:42,779 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-09-08 20:38:43,351 | INFO  | PListStore:[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2022-09-08 20:38:43,623 | INFO  | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-63909-1662644323418-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-08 20:38:43,910 | INFO  | Listening for connections at: tcp://RAKUS089:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-08 20:38:43,910 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-08 20:38:43,928 | INFO  | Listening for connections at: amqp://RAKUS089:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-08 20:38:43,928 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-08 20:38:43,954 | INFO  | Listening for connections at: stomp://RAKUS089:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-08 20:38:43,954 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-08 20:38:43,969 | INFO  | Listening for connections at: mqtt://RAKUS089:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-09-08 20:38:43,969 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-08 20:38:43,977 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-09-08 20:38:44,183 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-09-08 20:38:44,377 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@307f39dd{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2022-09-08 20:38:44,580 | INFO  | Listening for connections at ws://RAKUS089:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2022-09-08 20:38:44,580 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-09-08 20:38:44,580 | INFO  | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-63909-1662644323418-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-08 20:38:44,580 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-08 20:38:44,612 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 66436 mb of usable space. - resetting to maximum available disk space: 66436 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-09-08 20:38:47,093 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-09-08 20:38:47,093 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-09-08 20:40:41,555 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1951353329-51

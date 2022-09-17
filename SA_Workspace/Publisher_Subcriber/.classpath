@@ -6,11 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Tuan Anh/ToThuy/Kien truc PM/2022/Javax libs/javax.jms-api-2.0.1.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/Tuan Anh/ToThuy/Kien truc PM/2022/Javax libs/jaxb-api-2.3.1.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -21,5 +16,12 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Tuan Anh/ToThuy/Kien truc PM/2022/apache-activemq-5.17.1/activemq-all-5.17.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Tuan Anh/ToThuy/Kien truc PM/2022/SA_Workspace/19432541_HoangThiToThuy/ActiveMQDemo/activemq-all-5.16.5.jar"/>
+	<classpathentry kind="lib" path="C:/Tuan Anh/ToThuy/Kien truc PM/2022/SA_Workspace/19432541_HoangThiToThuy/ActiveMQDemo/jaxb-api-2.3.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
