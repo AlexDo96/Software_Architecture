@@ -18,7 +18,7 @@ public class TopicPublisher {
 		// thiết lập môi trường cho JMS logging
 		BasicConfigurator.configure();
 		
-		// thiết lập môi trường cho JJNDI
+		// thiết lập môi trường cho JNDI
 		Properties settings = new Properties();
 		settings.setProperty(Context.INITIAL_CONTEXT_FACTORY, "org.apache.activemq.jndi.ActiveMQInitialContextFactory");
 		settings.setProperty(Context.PROVIDER_URL, "tcp://localhost:61616");

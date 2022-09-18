@@ -300,3 +300,251 @@ INFO   | jvm 1    | 2022/09/08 20:38:44 |  WARN | Store limit is 102400 mb (curr
 INFO   | jvm 1    | 2022/09/08 20:38:47 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
 INFO   | jvm 1    | 2022/09/08 20:38:47 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
 INFO   | jvm 1    | 2022/09/08 20:40:41 |  INFO | Connector vm://localhost started
+STATUS | wrapper  | 2022/09/18 14:13:24 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/09/18 14:13:24 | Launching a JVM...
+INFO   | jvm 1    | 2022/09/18 14:13:25 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/09/18 14:13:25 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/09/18 14:13:25 | 
+INFO   | jvm 1    | 2022/09/18 14:13:26 | Java Runtime: Oracle Corporation 11.0.13 C:\Program Files\Java\jdk-11.0.13
+INFO   | jvm 1    | 2022/09/18 14:13:26 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2022/09/18 14:13:26 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=S55QJaqokv58Fn51 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=18420 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/09/18 14:13:26 | Extensions classpath:
+INFO   | jvm 1    | 2022/09/18 14:13:26 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/09/18 14:13:26 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/09/18 14:13:26 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/09/18 14:13:26 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/09/18 14:13:26 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/09/18 14:13:27 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/09/18 14:13:28 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/09/18 14:13:28 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2022/09/18 14:13:28 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/09/18 14:13:28 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | PListStore:[C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-51488-1663485208984-0:1) is starting
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Listening for connections at: tcp://RAKUS089:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Listening for connections at: amqp://RAKUS089:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Listening for connections at: stomp://RAKUS089:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Listening for connections at: mqtt://RAKUS089:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@4a8c9ecd{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Listening for connections at ws://RAKUS089:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:RAKUS089-51488-1663485208984-0:1) started
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/09/18 14:13:29 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 60627 mb of usable space. - resetting to maximum available disk space: 60627 mb
+INFO   | jvm 1    | 2022/09/18 14:13:30 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/09/18 14:13:30 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2022/09/18 14:23:44 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2022/09/18 14:23:47 |  WARN | /admin/deleteDestination.action
+INFO   | jvm 1    | 2022/09/18 14:23:47 | javax.servlet.ServletException: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[jetty-io-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[jetty-io-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[jetty-io-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | Caused by: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	... 17 more
+INFO   | jvm 1    | 2022/09/18 14:23:47 | Caused by: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-servlet-api-9.0.58.jar:4.0.FR]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-servlet-api-9.0.58.jar:4.0.FR]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1631) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	... 17 more
+INFO   | jvm 1    | 2022/09/18 14:23:47 | Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59) ~[?:?]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:47 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-servlet-api-9.0.58.jar:4.0.FR]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-servlet-api-9.0.58.jar:4.0.FR]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1631) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:23:48 | 	... 17 more
+INFO   | jvm 1    | 2022/09/18 14:24:25 |  WARN | /admin/deleteDestination.action
+INFO   | jvm 1    | 2022/09/18 14:24:25 | javax.servlet.ServletException: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[jetty-io-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[jetty-io-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[jetty-io-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[jetty-util-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | Caused by: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	... 17 more
+INFO   | jvm 1    | 2022/09/18 14:24:25 | Caused by: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-servlet-api-9.0.58.jar:4.0.FR]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-servlet-api-9.0.58.jar:4.0.FR]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1631) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	... 17 more
+INFO   | jvm 1    | 2022/09/18 14:24:25 | Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59) ~[?:?]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-servlet-api-9.0.58.jar:4.0.FR]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-servlet-api-9.0.58.jar:4.0.FR]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1631) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) ~[jetty-servlet-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) ~[jetty-security-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.46.v20220331.jar:9.4.46.v20220331]
+INFO   | jvm 1    | 2022/09/18 14:24:25 | 	... 17 more

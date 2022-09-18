@@ -5,7 +5,7 @@
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<item key="org.eclipse.jdt.ui.lastuserlibrary" value="C:\Tuan Anh\ToThuy\Kien truc PM\2022\apache-activemq-5.17.1\activemq-all-5.17.1.jar"/>
 	<item key="UserLibraryLoadSaveDialog.size" value="480,510"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Tuan Anh\ToThuy\Kien truc PM\2022\SA_Workspace\19432541_HoangThiToThuy\ActiveMQDemo"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Tuan Anh\ToThuy\Kien truc PM\2022\SA_Workspace\ActiveMQDemo"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -22,7 +22,7 @@
 		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="3"/>
+		<item key="index" value="0"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
